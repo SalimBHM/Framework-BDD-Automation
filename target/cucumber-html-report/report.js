@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 4618062600,
+  "duration": 3817825400,
   "status": "passed"
 });
 formatter.scenario({
@@ -32,22 +32,22 @@ formatter.scenario({
 });
 formatter.step({
   "line": 7,
-  "name": "j\u0027ouvre l\u0027application OrangeHRM",
+  "name": "J\u0027ouvre l\u0027application OrangeHRM",
   "keyword": "Given "
 });
 formatter.step({
   "line": 8,
-  "name": "je saisi le username",
+  "name": "Je saisi le username",
   "keyword": "When "
 });
 formatter.step({
   "line": 9,
-  "name": "je saisi le mot de passe",
+  "name": "Je saisi le mot de passe",
   "keyword": "And "
 });
 formatter.step({
   "line": 10,
-  "name": "je clique sur le bouton",
+  "name": "Je clique sur le bouton",
   "keyword": "And "
 });
 formatter.step({
@@ -76,7 +76,7 @@ formatter.result({
   "status": "undefined"
 });
 formatter.after({
-  "duration": 1766912500,
+  "duration": 1704508600,
   "status": "passed"
 });
 });

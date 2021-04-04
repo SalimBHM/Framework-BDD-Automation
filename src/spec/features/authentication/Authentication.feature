@@ -4,9 +4,9 @@ Feature: Authentication - OrangeHRM
 
   @tag1
   Scenario: Vérifier l'authentification
-    Given j'ouvre l'application OrangeHRM
-    When je saisi le username
-    And je saisi le mot de passe
-    And je clique sur le bouton
+    Given J'ouvre l'application OrangeHRM
+    When Je saisi le username
+    And Je saisi le mot de passe
+    And Je clique sur le bouton
     Then Redirection vers la page Home de l'application OrangeHRM
     
