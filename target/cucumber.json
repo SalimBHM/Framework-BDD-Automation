@@ -1,0 +1,229 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3891454200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "J\u0027ouvre l\u0027application OrangeHRM",
+            "match": {
+              "location": "AuthenticationStepDefinition.jOuvreLApplicationOrangeHRM()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 119314500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Je saisi le username \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 22
+                }
+              ],
+              "location": "AuthenticationStepDefinition.jeSaisiLeUsername(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 82549000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Je saisi le mot de passe \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin123",
+                  "offset": 26
+                }
+              ],
+              "location": "AuthenticationStepDefinition.jeSaisiLeMotDePasse(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3172321100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Je clique sur le bouton",
+            "match": {
+              "location": "AuthenticationStepDefinition.jeCliqueSurLeBouton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29850700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Redirection vers la page Home de l\u0027application OrangeHRM \"Welcome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome",
+                  "offset": 58
+                }
+              ],
+              "location": "AuthenticationStepDefinition.redirectionVersLaPageHomeDeLApplicationOrangeHRM(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2785723800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Modifier infos",
+        "description": "",
+        "id": "modifier-mes-infos;modifier-infos",
+        "after": [
+          {
+            "result": {
+              "duration": 1402845000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setup.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1318945600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Je clique sur le bouton My Info",
+            "match": {
+              "location": "MyInfoStepDefinition.jeCliqueSurLeBoutonMyInfo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61745300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Je clique sur le bouton Edit de Personal Details",
+            "match": {
+              "location": "MyInfoStepDefinition.jeCliqueSurLeBoutonEdit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6581899200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Je saisis les champs de Full Name \"Salim\" et \"Ben\" et \"Hammouda\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Salim",
+                  "offset": 35
+                },
+                {
+                  "val": "Ben",
+                  "offset": 46
+                },
+                {
+                  "val": "Hammouda",
+                  "offset": 55
+                }
+              ],
+              "location": "MyInfoStepDefinition.jeSaisisLesChampsFullName(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2242859100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Je saisie le champ Date of Birth \"1990-05-16\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1990-05-16",
+                  "offset": 34
+                }
+              ],
+              "location": "MyInfoStepDefinition.jeSaisisLeChampDateOfBirth(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1560330700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Je clique sur le bouton save Edit my Info",
+            "match": {
+              "location": "MyInfoStepDefinition.jeCliqueSurLeBoutonSaveEditMyInfo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 131179700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Je verifie que mes donnees sont changees correctement",
+            "match": {
+              "location": "MyInfoStepDefinition.jeVerifieQueMesDonneesSontChangeesCorrectement()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Modifier mes infos",
+    "description": "En tant que utilisateur je souhaite modifier mes infos dans personal details",
+    "id": "modifier-mes-infos",
+    "keyword": "Feature",
+    "uri": "myInfo/EditMyInfo.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@myinfo"
+      }
+    ]
+  }
+]
